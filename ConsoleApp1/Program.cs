@@ -37,16 +37,16 @@ namespace ConsoleApp1
             switch (Console.ReadLine())
             {
                 case "a":
-                    Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+                    Console.WriteLine("Your result: {num1} + {num2} = " + (num1 + num2));
                     break;
                 case "s":
-                    Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
+                    Console.WriteLine("Your result: {num1} - {num2} = " + (num1 - num2));
                     break;
                 case "m":
-                    Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+                    Console.WriteLine("Your result: {num1} * {num2} = " + (num1 * num2));
                     break;
                 case "d":
-                    Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
+                    Console.WriteLine("Your result: {num1} / {num2} = " + (num1 / num2));
                     break;
             }
             // Wait for the user to respond before closing.
